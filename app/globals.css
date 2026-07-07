@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-ink text-parchment font-book antialiased;
+}
+
+/* Reading text — the material of the product */
+.terrain-text p {
+  @apply mb-4 leading-relaxed text-[1.05rem];
+}
+
+/* Today's-terrain outline on the map */
+@keyframes lanternPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+.lantern-pulse { animation: lanternPulse 2.4s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .lantern-pulse { animation: none; }
+  * { transition-duration: 0.01ms !important; }
+}
+
+:focus-visible {
+  outline: 2px solid #e8ac5b;
+  outline-offset: 2px;
+}
+
+::selection {
+  background: #d2913f;
+  color: #1b211d;
+}
