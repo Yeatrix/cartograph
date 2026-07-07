@@ -98,12 +98,10 @@ This prototype deliberately swaps heavy infrastructure for local equivalents. Th
 - "Profiles" are trust-based names on one machine; the leaderboard is your household/friends, not the internet.
 - The Mirror (day-30 belief diff) is not built yet — artifacts are being collected for it. It's the next feature after the loop proves itself on you.
 - Public-domain seed content only (Meditations, George Long translation, abridged). Add regions in `content/regions.ts`.
-
-## The founder's gate
-
-Before building more: **use it daily for 14 days.** If you skip three days, the loop is wrong — fix the loop, not the feature list. The product's first user was always meant to be you.
 =======
 # Cartography
+
+This repo is 90% AI generated.
 
 The prd and architecture docs are ai-generated based on specificatoins and idea's i have given to the llm. they are starting points for clarity while making the prototype and supporting in simplyfying what i intend to build and not stray away from my path.
 >>>>>>> 93b6da99bd0e61e22ea252462eb2328b38931d93
