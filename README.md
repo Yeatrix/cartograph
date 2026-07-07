@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cartograph
 
 *The reading app where you can't fake it. One page a day, three questions — recall it, reframe it, apply it — and the fog lifts only over terrain you actually understood.*
@@ -101,3 +102,8 @@ This prototype deliberately swaps heavy infrastructure for local equivalents. Th
 ## The founder's gate
 
 Before building more: **use it daily for 14 days.** If you skip three days, the loop is wrong — fix the loop, not the feature list. The product's first user was always meant to be you.
+=======
+# Cartography
+
+The prd and architecture docs are ai-generated based on specificatoins and idea's i have given to the llm. they are starting points for clarity while making the prototype and supporting in simplyfying what i intend to build and not stray away from my path.
+>>>>>>> 93b6da99bd0e61e22ea252462eb2328b38931d93
